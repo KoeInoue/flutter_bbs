@@ -15,7 +15,6 @@ void main() async {
       ),
     ),
   );
-  await Future.delayed(const Duration(seconds: 3));
 
   final pref = await SharedPreferences.getInstance();
 
